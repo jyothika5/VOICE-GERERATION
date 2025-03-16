@@ -1,9 +1,7 @@
-# CHANGE THIS to use a different dataset
+
 
 dataset = 'digits' # one of 'digits', 'speech', 'birds', 'drums', 'piano'
 
-
-# Confirm GPU is running
 from tensorflow.python.client import device_lib
 def get_available_gpus():
     local_device_protos = device_lib.list_local_devices()
